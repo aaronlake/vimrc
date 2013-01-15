@@ -4,8 +4,13 @@
 " Non-Addon related settings
 " --------------------------
 " Default VIM colorscheme which works in terminals
+if isdirectory($HOME."/.vim/bundle/vim-colors-solarized")
+  colorscheme solarized
+else
+  colorscheme desert
+endif
+
 set background=dark
-colorscheme solarized
 let g:solarized_termcolors = 256
 let g:solarized_termtrans  = 1
 
