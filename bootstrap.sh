@@ -29,8 +29,4 @@ echo "Link vim configuration files"
 ln -s $HOME/.vim/vimrc $HOME/.vimrc
 ln -s $HOME/.vim/gvimrc $HOME/.gvimrc
 
-echo "Install vim-javascript"
-cd $HOME/.vim/bundle/vim-javascript/
-rake install
-
 echo "Install successfully."
