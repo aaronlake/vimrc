@@ -144,7 +144,8 @@ let g:ctrlp_map = '<Leader>p'
 let g:delimitMate_expand_space=1
 let g:delimitMate_expand_cr=1
 
-" Syntastic checking
+" Syntastic
+" ---------
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=2
 let g:syntastic_auto_jump=1

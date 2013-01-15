@@ -1,6 +1,7 @@
 " NeoBundle : See Vundle for more documentation
 " =============================================
 
+" Load NeoBundle
 if has('vim_starting')
   set runtimepath+=~/.vim/before/neobundle.vim
 endif
