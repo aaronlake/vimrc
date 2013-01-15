@@ -24,9 +24,9 @@ set history=500
 
 " Share clipboard with systems
 if $TMUX == ''
-  set clipboard=unnamedplus
-else
   set clipboard=unnamed
+else
+  set clipboard=unnamedplus
 endif
 
 " Highlight background of current line

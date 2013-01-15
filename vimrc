@@ -19,6 +19,7 @@ NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'bcaccinolo/bclose'
 NeoBundle 'xolox/vim-session'
 NeoBundle 'tpope/vim-sensible'
+NeoBundle 'kana/vim-fakeclip'
 
 " Asthetic Related
 " -------------

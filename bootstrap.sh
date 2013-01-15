@@ -1,5 +1,5 @@
 #################################
-# copy from https://github.com/carlhuda/janus/blob/master/bootstrap.sh
+# copy from https://raw.github.com/aaronlake/vimrc/master/bootstrap.sh
 
 function die()
 {
@@ -7,13 +7,17 @@ function die()
     exit 1
 }
 
-# Add <strong>.old</strong> to any existing Vim file in the home directory
+# Add old to any existing Vim file in the home directory
 for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do
   if [[ ( -e $i ) || ( -h $i ) ]]; then
     echo "${i} has been renamed to ${i}.old"
     mv "${i}" "${i}.old" || die "Could not move ${i} to ${i}.old"
   fi
 done
+
+# Creating Vim cache directory in $HOME/.cache/vim
+mkdir -p $HOME/.cache/vim
+
 #################################
 
 git clone --recursive git://github.com/aaronlake/vimrc.git $HOME/.vim \
