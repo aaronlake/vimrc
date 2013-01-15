@@ -18,6 +18,8 @@ If you'd like a little more customization to the install follow these steps belo
 * Create links to the my vimrc files.
   * `ln -s ~/.vim/vimrc ~/.vimrc`
   * `ln -s ~/.vim/gvimrc ~/.gvimrc`
+* Create Vim cache directories
+  * `mkdir -p $HOME/.cache/vim/backup $HOME/.cache/vim/cache $HOME/.cache/vim/undo`
 
 Plugin Installation & Mangement
 -------------------------------

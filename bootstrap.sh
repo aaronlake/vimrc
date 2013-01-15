@@ -16,7 +16,9 @@ for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do
 done
 
 # Creating Vim cache directory in $HOME/.cache/vim
-mkdir -p $HOME/.cache/vim
+mkdir -p $HOME/.cache/vim/backup
+mkdir -p $HOME/.cache/vim/swap
+mkdir -p $HOME/.cache/vim/undo
 
 #################################
 
