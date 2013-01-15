@@ -1,13 +1,21 @@
 Installation
-------------
+============
 
-### Option 1:
+Option 1:
+---------
 The script below will backup your existing Vim configuration files and plop my Vim files down in your home directory. This is by far the easiest way for installation, but you'll have to trust that this script won't do anything nasty (it doesn't).
+
+### Step 1:
 ``` bash
 $ curl -Lo- https://raw.github.com/aaronlake/vimrc/master/bootstrap.sh | bash
 ```
 
-### Option 2:
+### Step 2:
+Launch vim and type `:NeoBundleInstall`.
+
+Option 2:
+---------
+
 If you'd like a little more customization to the install follow these steps below:
 
 * Backup your existing Vim configuration files
@@ -20,15 +28,17 @@ If you'd like a little more customization to the install follow these steps belo
   * `ln -s ~/.vim/gvimrc ~/.gvimrc`
 * Create Vim cache directories
   * `mkdir -p $HOME/.cache/vim/backup $HOME/.cache/vim/cache $HOME/.cache/vim/undo`
+* Launch vim and type `:NeoBundleInstall`.
 
 Plugin Installation & Mangement
--------------------------------
+===============================
 
 My .vimrc configuration uses Shougo's excellent [NeoBundle](https://github.com/Shougo/neobundle.vim) plugin manager. I have a large number of plugins added by default, with some useful (but not to me) ones commented out. I'd recommend going through the list of plugins below and verifying that the plugins I've added are useful or otherwise.
 
 * Comment out/uncomment useful plugins
 * Run `:NeoBundleInstall` to install the plugins you selected
 * Update plugins using `:NeoBundleUpdate` to update all plugins to the latest version from Github or vim.org.
+* Remove any plugins you find not useful or intrusive by deleting or commenting them out in your `.vimrc` file and run `:NeoBundleClean`.
 
 Settings and Keymaps
 --------------------
@@ -100,3 +110,8 @@ Plugins
 
 ### Other Addons
 * [mattn/gist-vim](http://www.github.com/mattn/gist-vim)
+
+Credits
+-------
+
+Thanks to various sources for most of the Vim settings, bootstrap script, and list of plugins. A lot of work has went in to making the best Vim configuration (for me), hopefully someone out there will find this equally useful.
