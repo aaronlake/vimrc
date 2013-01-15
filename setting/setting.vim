@@ -18,9 +18,6 @@ syntax on
 " Change Leader key to comma
 let mapleader=","
 
-" Prevent VIM from being nerfed into acting like VI
-set nocompatible
-
 set viminfo='1000,f1,:1000,/1000
 
 set history=500

@@ -1,6 +1,10 @@
 " NeoBundle : See Vundle for more documentation
 " =============================================
 
+" Apparently this has to go before everything else, thus breaking my pretty
+" configuration. D:
+set nocompatible
+
 " Load NeoBundle
 if has('vim_starting')
   set runtimepath+=~/.vim/before/neobundle.vim
