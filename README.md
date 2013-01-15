@@ -62,7 +62,7 @@ Plugins
 * [tpope/vim-surround](http://www.github.com/tpope/vim-surround)
 * [godlygeek/tabular](http://www.github.com/godlygeek/tabular)
 * [Raimondi/delimitMate](http://www.github.com/Raimondi/delimitMate)
-* [ervandew/supertab](http://www.github.com/ervandew/supertab) " ** This is breaking neocomplcache
+* [ervandew/supertab](http://www.github.com/ervandew/supertab)
 
 ### File Browsing/management
 * [scrooloose/nerdtree](http://www.github.com/scrooloose/nerdtree)

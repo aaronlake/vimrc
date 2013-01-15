@@ -111,6 +111,12 @@ set laststatus=2
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
 
+" SuperTab
+" --------
+imap  <silent><expr><tab>  neocomplcache#sources#snippets_complete#expandable() ? "\<plug>(neocomplcache_snippets_expand)" : (pumvisible() ? "\<c-e>" : "\<tab>")
+smap  <tab>  <right><plug>(neocomplcache_snippets_jump)
+inoremap <expr><c-e>     neocomplcache#complete_common_string()
+
 " Endwise
 " --------
 let g:endwise_no_mappings=1
