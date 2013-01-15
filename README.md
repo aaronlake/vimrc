@@ -8,7 +8,7 @@ $ curl -Lo- https://raw.github.com/aaronlake/vimrc/master/bootstrap.sh | bash
 ```
 
 ### Option 2:
-If you'd like a little must customization to the install follow these steps below:
+If you'd like a little more customization to the install follow these steps below:
 
 * Backup your existing Vim configuration files
   * `mv ~/.vim ~/.vim.old`
