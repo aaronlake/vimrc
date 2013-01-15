@@ -133,9 +133,10 @@ let g:Powerline_symbols = 'fancy'
 " ---------
 let g:ctrlp_map = '<Leader>p'
 
-" Autoclose
+" delimitMate
 " ----------
-let g:AutoClosePairs_add = "<> | %"
+let g:delimitMate_expand_space=1
+let g:delimitMate_expand_cr=1
 
 " Syntastic checking
 let g:syntastic_check_on_open=1

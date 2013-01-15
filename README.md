@@ -61,7 +61,7 @@ Plugins
 * [Shougo/neosnippet](http://www.github.com/Shougo/neosnippet)
 * [tpope/vim-surround](http://www.github.com/tpope/vim-surround)
 * [godlygeek/tabular](http://www.github.com/godlygeek/tabular)
-* [Townk/vim-autoclose](http://www.github.com/Townk/vim-autoclose)  " ** This is breaking minibufexpl
+* [Raimondi/delimitMate](http://www.github.com/Raimondi/delimitMate)
 * [ervandew/supertab](http://www.github.com/ervandew/supertab) " ** This is breaking neocomplcache
 
 ### File Browsing/management

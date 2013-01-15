@@ -38,7 +38,7 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'godlygeek/tabular'
-" NeoBundle 'Townk/vim-autoclose'  " ** This is breaking minibufexpl
+NeoBundle 'Raimondi/delimitMate'
 " NeoBundle 'ervandew/supertab' " ** This is breaking neocomplcache
 
 " File Browsing/management
