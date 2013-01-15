@@ -15,6 +15,9 @@ If you'd like a little more customization to the install follow these steps belo
   * `mv ~/.vimrc ~/.vimrc.old`
   * `mv ~/.gvimrc ~/.gvimrc.old`
 * Clone this repo `git clone https://github.com/aaronlake/vimrc.git $HOME/.vim`
+* Create links to the my vimrc files.
+  * `ln -s ~/.vim/vimrc ~/.vimrc`
+  * `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
 Plugin Installation & Mangement
 -------------------------------
