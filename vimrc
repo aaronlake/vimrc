@@ -83,6 +83,7 @@ NeoBundle 'bigfish/vim-js-beautify'
 " Language: HTML
 " -----------------
 NeoBundle 'mattn/zencoding-vim'
+NeoBundle 'groenewege/vim-less'
 
 " Other Addons
 " ------------
