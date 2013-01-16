@@ -44,7 +44,7 @@ NeoBundle 'Shougo/neosnippet'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'Raimondi/delimitMate'
-NeoBundle 'ervandew/supertab'
+" NeoBundle 'ervandew/supertab'
 
 " File Browsing/management
 " ------------------------
