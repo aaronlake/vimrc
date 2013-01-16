@@ -87,6 +87,7 @@ NeoBundle 'mattn/zencoding-vim'
 " Other Addons
 " ------------
 NeoBundle 'mattn/gist-vim'
+NeoBundle 'mattn/webapi-vim'
 
 source $HOME/.vim/setting/function.vim
 source $HOME/.vim/setting/command.vim
