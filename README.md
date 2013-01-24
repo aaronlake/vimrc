@@ -60,7 +60,7 @@ Plugins
 
 ### Asthetic Related
 * [altercation/vim-colors-solarized.git](http://www.github.com/altercation/vim-colors-solarized.git)
-* [Lokaltog/vim-powerline](http://www.github.com/Lokaltog/vim-powerline)
+* [Lokaltog/powerline](http://www.github.com/Lokaltog/powerline)
 * [techlivezheng/vim-plugin-minibufexpl](http://www.github.com/techlivezheng/vim-plugin-minibufexpl)
 * [vim-scripts/ScrollColors](http://www.github.com/vim-scripts/ScrollColors)
 * [vim-scripts/Color-Sampler-Pack](http://www.github.com/vim-scripts/Color-Sampler-Pack)
