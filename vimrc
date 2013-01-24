@@ -29,7 +29,7 @@ NeoBundle 'kana/vim-fakeclip'
 " Asthetic Related
 " -------------
 NeoBundle 'altercation/vim-colors-solarized.git'
-NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 NeoBundle 'techlivezheng/vim-plugin-minibufexpl'
 " NeoBundle 'vim-scripts/ScrollColors'
 " NeoBundle 'vim-scripts/Color-Sampler-Pack'
@@ -58,7 +58,8 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'helino/vim-json'
-" NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'tpope/vim-ragtag'
+NeoBundle 'nathanaelkane/vim-indent-guides'
 
 " Language: Ruby/Rails
 " -----------------

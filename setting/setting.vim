@@ -106,8 +106,12 @@ set laststatus=2
 " Plugin settings
 " ===============
 
+" Ragtag
+" ------
+let g:ragtag_global_maps = 1
+
 " Indent guide
-" ----------------
+" ------------
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
 
@@ -143,6 +147,8 @@ let g:ctrlp_map = '<Leader>p'
 " ----------
 let g:delimitMate_expand_space=1
 let g:delimitMate_expand_cr=1
+let g:delimitMate_smart_matchpairs=1
+let g:delimitMate_balance_matchpairs=1
 
 " Syntastic
 " ---------
@@ -260,7 +266,7 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
-" Enable heavy omni completion, which require computational power and may stall the vim.
+" Enable heavy omni completion, which require computational 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}power and may stall the vim.
 if !exists('g:neocomplcache_omni_patterns')
   let g:neocomplcache_omni_patterns = {}
 endif
