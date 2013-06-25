@@ -23,6 +23,7 @@ NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'bcaccinolo/bclose'
 NeoBundle 'xolox/vim-session'
+NeoBundle 'xolox/vim-misc'
 NeoBundle 'tpope/vim-sensible'
 NeoBundle 'kana/vim-fakeclip'
 
