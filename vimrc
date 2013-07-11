@@ -91,6 +91,7 @@ NeoBundle 'groenewege/vim-less'
 " ------------
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'mattn/webapi-vim'
+NeoBundle 'airblade/vim-gitgutter'
 
 source $HOME/.vim/setting/function.vim
 source $HOME/.vim/setting/command.vim
