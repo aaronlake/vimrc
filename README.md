@@ -110,6 +110,8 @@ Plugins
 
 ### Other Addons
 * [mattn/gist-vim](http://www.github.com/mattn/gist-vim)
+* [mattn/webapi-vim](http://github.com/mattn/webapi-vim)
+* [airblade/vim-gitgutter](http://github.com/airblade/vim-gitgutter)
 
 Credits
 -------
