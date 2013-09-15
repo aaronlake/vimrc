@@ -93,6 +93,7 @@ NeoBundle 'mattn/gist-vim'
 NeoBundle 'mattn/webapi-vim'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'Yggdroot/indentLine'
+NeoBundle 'nvie/vim-togglemouse'
 
 source $HOME/.vim/setting/function.vim
 source $HOME/.vim/setting/command.vim
