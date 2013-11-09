@@ -192,7 +192,7 @@ let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplCheckDupeBufs = 0
 
 " Powerline
-let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'unicode'
 
 " CtrtlP
 " ---------
@@ -332,3 +332,6 @@ let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 
 " Set vim-gitgutter colors
 highlight clear SignColumn
+
+" Vim-airline settings
+let g:airline_powerline_fonts = 1
