@@ -334,4 +334,5 @@ let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 highlight clear SignColumn
 
 " Vim-airline settings
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
+set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
