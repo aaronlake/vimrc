@@ -106,7 +106,7 @@ Plugins
 * [shawncplus/phpcomplete.vim](http://www.github.com/shawncplus/phpcomplete.vim)
 
 ### Language: HTML
-* [mattn/zencoding-vim](http://www.github.com/mattn/zencoding-vim)
+* [mattn/emmet-vim](http://www.github.com/mattn/emmet-vim)
 
 ### Other Addons
 * [mattn/gist-vim](http://www.github.com/mattn/gist-vim)
