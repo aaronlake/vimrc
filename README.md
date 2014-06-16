@@ -71,6 +71,7 @@ Plugins
 ### Autocomplete/assistive completion
 * [Shougo/neocomplcache](http://www.github.com/Shougo/neocomplcache)
 * [Shougo/neosnippet](http://www.github.com/Shougo/neosnippet)
+* [Shougo/neosnippet-snippets](https://github.com/Shougo/neosnippet-snippets)
 * [tpope/vim-surround](http://www.github.com/tpope/vim-surround)
 * [godlygeek/tabular](http://www.github.com/godlygeek/tabular)
 * [Raimondi/delimitMate](http://www.github.com/Raimondi/delimitMate)

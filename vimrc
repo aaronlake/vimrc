@@ -42,6 +42,7 @@ NeoBundle 'techlivezheng/vim-plugin-minibufexpl'
 " ---------------------------------
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'Raimondi/delimitMate'
