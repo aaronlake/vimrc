@@ -62,6 +62,7 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'helino/vim-json'
 NeoBundle 'tpope/vim-ragtag'
 NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'puppetlabs/puppet-syntax-vim'
 
 " Language: Ruby/Rails
 " -----------------
