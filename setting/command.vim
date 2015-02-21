@@ -5,7 +5,7 @@
 command Ball call CloseAllBufs()
 
 " Save as root
-command Sudow w !sudo tee % > /dev/null 2>&1
+cmap w!! %!sudo tee > /dev/null %
 
 command W w
 
