@@ -30,7 +30,9 @@ NeoBundle 'kana/vim-fakeclip'
 " Asthetic Related
 " -------------
 NeoBundle 'altercation/vim-colors-solarized.git'
-NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+" NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'techlivezheng/vim-plugin-minibufexpl'
 " NeoBundle 'vim-scripts/ScrollColors'
 " NeoBundle 'vim-scripts/Color-Sampler-Pack'
