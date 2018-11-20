@@ -86,7 +86,7 @@ Plugins
 * [scrooloose/syntastic](http://www.github.com/scrooloose/syntastic)
 * [bronson/vim-trailing-whitespace](http://www.github.com/bronson/vim-trailing-whitespace)
 * [tomtom/tcomment_vim](http://www.github.com/tomtom/tcomment_vim)
-* [helino/vim-json](http://www.github.com/helino/vim-json)
+* [ezlr/vim-json](http://www.github.com/ezlr/vim-json)
 * [nathanaelkane/vim-indent-guides](http://www.github.com/nathanaelkane/vim-indent-guides)
 
 ### Language: Ruby/Rails
@@ -96,7 +96,6 @@ Plugins
 
 ### Language: JavaScript
 * [juvenn/mustache.vim](http://www.github.com/juvenn/mustache.vim)
-* [helino/vim-json](http://www.github.com/helino/vim-json)
 * [pangloss/vim-javascript](http://www.github.com/pangloss/vim-javascript)
 * [kchmck/vim-coffee-script](http://www.github.com/kchmck/vim-coffee-script)
 * [bigfish/vim-js-beautify](http://www.github.com/bigfish/vim-js-beautify)
