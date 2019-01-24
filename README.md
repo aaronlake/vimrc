@@ -101,9 +101,7 @@ Plugins
 * [bigfish/vim-js-beautify](http://www.github.com/bigfish/vim-js-beautify)
 
 ### Language: PHP
-* [taxilian/VimDebugger](http://www.github.com/taxilian/VimDebugger)
-* [beyondwords/vim-twig](http://www.github.com/beyondwords/vim-twig)
-* [shawncplus/phpcomplete.vim](http://www.github.com/shawncplus/phpcomplete.vim)
+* Nothing here, have recommendations?
 
 ### Language: HTML
 * [mattn/emmet-vim](http://www.github.com/mattn/emmet-vim)
