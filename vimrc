@@ -30,15 +30,9 @@ NeoBundle 'kana/vim-fakeclip'
 " Asthetic Related
 " -------------
 NeoBundle 'altercation/vim-colors-solarized.git'
-" NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'techlivezheng/vim-plugin-minibufexpl'
-" NeoBundle 'vim-scripts/ScrollColors'
-" NeoBundle 'vim-scripts/Color-Sampler-Pack'
-" NeoBundle 'tomasr/molokai'
-" NeoBundle 'shawncplus/skittles_berry'
-" NeoBundle 'veloce/vim-aldmeris'
 
 " Autocomplete/assistive completion
 " ---------------------------------
@@ -82,9 +76,6 @@ NeoBundle 'bigfish/vim-js-beautify'
 
 " Language: PHP
 " ----------------
-" NeoBundle 'taxilian/VimDebugger'
-" NeoBundle 'beyondwords/vim-twig'
-" NeoBundle 'shawncplus/phpcomplete.vim'
 
 " Language: HTML
 " -----------------
