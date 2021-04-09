@@ -22,7 +22,7 @@ mkdir -p $HOME/.cache/vim/undo
 
 #################################
 
-git clone --recursive git://github.com/aaronlake/vimrc.git $HOME/.vim \
+git clone --recursive https://github.com/aaronlake/vimrc.git $HOME/.vim \
     || die "Could not clone the repository to ${HOME}/.vim"
 
 echo "Link vim configuration files"
